@@ -39,8 +39,6 @@ require '/path/to/sdk/vendor/autoload.php';
 Create an AWE Casino Client
 ```php
 <?php
-// Require the Composer autoloader.
-require 'vendor/autoload.php';
 
 use Begame\Casino\AWEClient;
 
