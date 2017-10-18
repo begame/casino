@@ -14,19 +14,23 @@ If you are about integration the Begame Casino Web Service in a platform, you ne
 
 1. Create a file at the root level of your project called **composer.json** and add the following dependency for the AWE Client SDK
 
+```xml
 {
     "require": {
         "begame/casino": "master"
     }
 }
+```
 
 2. Install the dependencies by running Composer's install command:
 
-```$composer install```
+```
+$composer install
+```
 
 3. Require Composer's autoloader by adding the following line to your code's bootstrap process (typically in index.php):
 
-```xml
+```php
 require '/path/to/sdk/vendor/autoload.php';
 ```
 
