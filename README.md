@@ -44,5 +44,5 @@ $platform = AWEClient::get()
                 ->setDefaultCurrency(Currency::EUR)
                 ->setDefaultLanguage(Language::ENGLISH)
                 ->setSecretKey("ihd89hcebrc927b39fv824ni9483jhf8")
-                ->setPlatformName("Bingocams UK");
+                ->setPlatformName("Casino Platform");
 ```
