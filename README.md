@@ -20,14 +20,15 @@ If you are about integration the Begame Casino Web Service in a platform, you ne
     }
 }
 
-1. Install the dependencies by running Composer's install command:
+2. Install the dependencies by running Composer's install command:
 
 ```$composer install```
 
-1. Require Composer's autoloader by adding the following line to your code's bootstrap process (typically in index.php):
+3. Require Composer's autoloader by adding the following line to your code's bootstrap process (typically in index.php):
 
+```xml
 require '/path/to/sdk/vendor/autoload.php';
-
+```
 
 ## Quick Example
 
